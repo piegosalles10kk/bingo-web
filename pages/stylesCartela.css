@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+.bingo-card {
+    border-collapse: collapse;
+    background: white;
+}
+.bingo-card th, .bingo-card td {
+    border: 1px solid #000;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.bingo-card th {
+    font-size: 24px;
+}
+.bingo-card td.special {
+    color: magenta;
+    font-weight: bold;
+    font-size: 15px;
+}
